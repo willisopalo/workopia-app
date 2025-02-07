@@ -17,7 +17,7 @@
         <div class="text-red-500 mt-2 text-sm">{{ $message }}</div>
         @enderror
     </div>
-    {{-- <button type="submit">Submit</button> --}}
+    <button type="submit">Submit</button>
     </form>
 </x-layout>
 
