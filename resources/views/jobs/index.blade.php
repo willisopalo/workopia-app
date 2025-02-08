@@ -4,6 +4,7 @@
     <ul>
         @foreach ($jobs as $job)
         <li><a href="{{route('jobs.show', $job->id)}}">{{ $job->title }}</a> - {{ $job->description }}</li>
+        {{-- <li><a href="{{url='jobs.show' $job->id}}">{{ $job->title }}</a> - {{ $job->description }}</li> --}}
         @endforeach 
     </ul>
 </x-layout>
