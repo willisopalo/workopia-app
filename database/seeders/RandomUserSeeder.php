@@ -12,7 +12,7 @@ class RandomUserSeeder extends Seeder
      */
     public function run(): void
     {
-        $users = User::factory(10)->create(); // ✅ Fixed syntax error
+        $users = User::factory(10)->create();
         echo 'Users creaed successfully';
     }
 }
