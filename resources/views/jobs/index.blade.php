@@ -6,7 +6,7 @@
     <x-job-card :job=$job />
     {{-- <div>{{ $job->title }}</div> --}}
     @empty
-    <p>No jobs found</p>
+    <p>No jobs found</p> 
     @endforelse
   </div>
 </x-layout>
