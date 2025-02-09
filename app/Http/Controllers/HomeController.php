@@ -13,6 +13,6 @@ class HomeController extends Controller
         $jobs = Job::latest()->limit(6)->get();
 
         return view('pages.index', compact('jobs'));
-        // return view('pages.index')->with('job', $jobs);
+        // return view('pages.index')->with('jobs', $jobs);
     }
 };
