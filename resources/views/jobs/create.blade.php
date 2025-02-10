@@ -10,7 +10,7 @@
             <h2 class="text-2xl font-bold mb-6 text-center text-gray-500">
                 Job Info
             </h2>
-
+            
             <!-- Job Title -->
             <x-inputs.text id="title" name="title" label="Job Title" placeholder="Software Engineer"/>
 
@@ -55,7 +55,7 @@
 
             <x-inputs.text-area id='company_description' name='company_description' label='Company Description' placeholder="Company Description" />
             
-            <x-inputs.text id="company_website" name="company_website" label="Company Website" placeholder="Enter website"/>
+            <x-inputs.text id="company_website" type="url" name="company_website" label="Company Website" placeholder="Enter website"/>
 
             <x-inputs.text id="contact_phone" name="contact_phone" label="Contact Phone" placeholder="Enter Contact Number"/>
 
